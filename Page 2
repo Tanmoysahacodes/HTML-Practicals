@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Lists</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f6f9;
+            margin: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        h1 {
+            background: #2980b9;
+            color: white;
+            padding: 10px;
+        }
+
+        .row {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .box {
+            flex: 1;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .code {
+            background: #eef2f7;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 12px;
+            background: #2980b9;
+            color: white;
+            text-decoration: none;
+        }
+
+        .center {
+            text-align: left;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>HTML Lists: Ordered and Unordered</h1>
+        <p>Understand the difference between ordered and unordered lists.</p>
+        <div class="row">
+            <div class="box">
+                <h3>Ordered List</h3>
+                Items in sequence:
+                <div class="code">
+                    &lt;ol&gt;<br>
+                    &lt;li&gt;First&lt;/li&gt;<br>
+                    &lt;li&gt;Second&lt;/li&gt;<br>
+                    &lt;li&gt;Third&lt;/li&gt;<br>
+                    &lt;/ol&gt;
+                </div>
+                <br>Preview:
+                <ol>
+                    <li>First</li>
+                    <li>Second</li>
+                    <li>Third</li>
+                </ol>
+            </div>
+            <div class="box">
+                <h3>Unordered List</h3>
+                Bullet points:
+                <div class="code">
+                    &lt;ul&gt;<br>
+                    &lt;li&gt;Apple&lt;/li&gt;<br>
+                    &lt;li&gt;Banana&lt;/li&gt;<br>
+                    &lt;li&gt;Cherry&lt;/li&gt;<br>
+                    &lt;/ul&gt;
+                </div>
+                <br>Preview:
+                <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Cherry</li>
+                </ul>
+            </div>
+        </div>
+        <h3>Summary</h3>
+        <p>Ordered lists use numbers. Unordered lists use bullets.</p>
+        <div class="center">
+            <a href="Page1.html" class="btn">← Back</a>
+        </div>
+    </div>
+</body>
+
+</html>
