@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Show Hide</title>
+</head>
+
+<body>
+
+    <div id="info">
+        <p>This is some important information.</p>
+    </div>
+
+    <button onclick="toggleInfo()" id="btn">Hide Info</button>
+
+    <script>
+        function toggleInfo() {
+            var info = document.getElementById("info");
+            var btn = document.getElementById("btn");
+
+            if (info.style.display === "none") {
+                info.style.display = "block";
+                btn.innerText = "Hide Info";
+            } else {
+                info.style.display = "none";
+                btn.innerText = "Show Info";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
