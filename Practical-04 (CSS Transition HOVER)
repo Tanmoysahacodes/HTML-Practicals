@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition Button</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #eef2f7;
+        }
+
+        /* Button Style */
+        .btn {
+            background-color: #0066ff;
+            color: white;
+            padding: 15px 35px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            transition: all 0.3s ease;
+        }
+
+        /* Hover Effect */
+        .btn:hover {
+            background-color: #ff3333;
+            transform: scale(1.1) translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 1);
+        }
+    </style>
+</head>
+
+<body>
+    <button class="btn">Hover Button</button>
+</body>
+
+</html>
