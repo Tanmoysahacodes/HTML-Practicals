@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Favorite Place</title>
+    <style>
+        img {
+            width: 300px;
+            display: block;
+            margin: auto;
+        }
+
+        p {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align:center;">My Favorite Place</h2>
+
+    <img src="https://hips.hearstapps.com/hmg-prod/images/great-ocean-road-174028267-1494616481.jpg?crop=0.888888888888889xw:1xh;center,top&resize=768:*"
+        alt="A beautiful place">
+
+    <p>This is my favorite place because it is peaceful and relaxing.</p>
+
+</body>
+
+</html>
